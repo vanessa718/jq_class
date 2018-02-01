@@ -1,11 +1,21 @@
+.total{
+	margin-top: 200px;
+}
+body{
+	background-image: url('bambou.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
 .row{
+	width: 32%;
+	margin-left: 40%;
 	display: flex;
 }
 .circle, .square, .diamond{
-	background-color: blue;	
+	background-color: #C9F9B8;	
 }
 .empty{
-	background-color: red;
+	background-color: #46B81F;
 }
 button{
 	cursor: pointer;
@@ -16,9 +26,8 @@ button{
 	width: 40px;
 	height: 40px;
 	border: 1px solid;
-	border-color: red;
+	border-color: #42802D;
 }
-
 .circle{
 	margin: 10px;
 	padding: 10px;
@@ -26,7 +35,7 @@ button{
 	height: 40px;
 	border: 1px solid;
 	border-radius: 50px;
-	border-color: #800080;
+	border-color: #42802D;
 }
 .diamond{
 	margin: 10px;
@@ -35,14 +44,27 @@ button{
 	height: 40px;
 	border: 1px solid;
 	transform:rotate(45deg);
-	border-color: #800080;
+	border-color: #42802D;
 
 }
+.btn{
+	margin-left: 43%;
+}
 .select{
-	background-color: #fa5559;
-	border-radius: 5px;
+	background-color: #C9F9B8 ;
+	padding:6px 0 6px 0;
+	border-radius:50%;
+	/*background:#478bf9;*/
+	font:bold 13px Arial;
+	color:#387224;
+	width:160px;
 }
 .deselect{
-	background-color: #f6bc58;
-	border-radius: 5px;
+	background-color: #C9F9B8 ;
+	padding:6px 0 6px 0;
+	border-radius:50%;
+	/*background:#478bf9;*/
+	font:bold 13px Arial;
+	color:#387224;
+	width:160px;
 }
