@@ -29,6 +29,22 @@
 		 	-> j'ajoute la classe empty sur tous les éléments div enfants du parent class row de l'élément
 		*/
 	});
+	
+
+	$('.diamond').on('click', function(){
+		$diamond = $(this);
+
+		if($diamond.hasClass('empty')){
+			$diamond.parents('.row').children('div').removeClass('empty');
+			$('.column').removeClass('empty');
+		}else{
+			$diamond.parents('.row').children('div').addClass('empty');
+			$('.column').addClass('empty');
+		}
+	})
+
+
+
 
 
 })(jQuery);
