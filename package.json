@@ -1,0 +1,22 @@
+{
+  "name": "jq_class",
+  "version": "1.0.0",
+  "description": "Créer un matrice (voir matrice.jpg) de formes à rendre cliquable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessa718/jq_class.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanessa718/jq_class/issues"
+  },
+  "homepage": "https://github.com/vanessa718/jq_class#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
